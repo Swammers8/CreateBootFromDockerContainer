@@ -1,6 +1,6 @@
 # CreateBootFromDockerContainer
 
-I made a script from commands taken from [here](https://iximiuz.com/en/posts/from-docker-container-to-bootable-linux-disk-image/)
+I made a script from commands taken from [here](https://iximiuz.com/en/posts/from-docker-container-to-bootable-linux-disk-image/) that will create a .img bootable drive file from an exported docker container.
 Example Usage:
 ```
 ./createbootfromtar.sh /home/kali/container.tar /os/new-img.img /dev/loop1
